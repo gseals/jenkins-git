@@ -10,5 +10,10 @@ pipeline {
                 '''
             }
         }
+        stage('Second') {
+            steps {
+                echo "This is to test the update function."
+            }
+        }
     }
 }
